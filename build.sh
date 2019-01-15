@@ -1,1 +1,1 @@
-nvidia-docker build -t naf-ikostrikov .
+nvidia-docker build -t naf_ikostrikov .
