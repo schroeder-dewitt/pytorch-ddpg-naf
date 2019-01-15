@@ -14,4 +14,4 @@ fi
 seed=`od -A n -t d -N 4 /dev/urandom`
 cmd_line=" --algo NAF --env-name HalfCheetah-v2 --seed ${seed}"
 
-${MADDPG_PATH}/exp_scripts_alt/run.sh "${target}" "${cmd_line}" "${tag}" "${reps}"
+${NAF_IKOSTRIKOV_PATH}/exp_scripts_alt/run.sh "${target}" "${cmd_line}" "${tag}" "${reps}"
