@@ -89,6 +89,7 @@ class NAF:
         self.num_inputs = num_inputs
         
         self.model = Policy(hidden_size, num_inputs, action_space)
+        #self.model = BatchPolicy(hidden_size, num_inputs, action_space)
         self.target_model = Policy(hidden_size, num_inputs, action_space)
         self.optimizer = Adam(self.model.parameters(), lr=1e-3)
 
