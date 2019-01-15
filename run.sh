@@ -22,3 +22,5 @@ NV_GPU="$GPU" ${cmd} run \
     -e DISPLAY=unix$DISPLAY \
     -t naf_ikostrikov \
     ${@:2}
+
+docker exec -it -u root $name /bin/bash
