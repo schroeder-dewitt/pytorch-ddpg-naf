@@ -12,7 +12,7 @@ else
   cmd=docker
 fi
 
-NV_GPU="$GPU" ${cmd} run \
+NV_GPU="$GPU" ${cmd} run -d \
     --name $name \
     --cap-add=SYS_PTRACE \
     --net host \

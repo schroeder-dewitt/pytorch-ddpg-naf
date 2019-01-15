@@ -58,7 +58,7 @@ if [ $target == "local" ] ; then
         echo "Starting repeat number $i on GPU $gpu_id"
         HASH=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 4 | head -n 1)
         echo "NV_GPU=${gpu_id} ${NAF_IKOSTRIKOV_PATH}/docker.sh ${HASH} python3 train.py ${cmd_line} --exp-name ${name}__repeat${i} &"
-        NV_GPU=${gpu_id} ${NAF_IKOSTRIKOV_PATH}/docker.sh ${HASH} python3 train.py ${cmd_line} --exp-name ${name}__repeat${i} &
+        NV_GPU=${gpu_id} ${NAF_IKOSTRIKOV_PATH}/docker.sh ${HASH} python3 src/main.py ${cmd_line} --exp-name ${name}__repeat${i} &
         echo "repeat: ${i}"
         echo "    name: ${name}__repeat${i}" >> $sfilepath
         echo "    gpu: ${gpu_id}" >> $sfilepath

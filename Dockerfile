@@ -177,7 +177,7 @@ RUN echo "export PYTHONPATH=/pymarl/src" >> ~/.profile
 
 EXPOSE 8888
 
-WORKDIR /pymarl
+WORKDIR /naf_ikostrikov
 # RUN echo "mongod --fork --logpath /var/log/mongod.log" >> ~/.bashrc
 #CMD ["mongod", "--fork", "--logpath", "/var/log/mongod.log"]
 # EXPOSE 27017
