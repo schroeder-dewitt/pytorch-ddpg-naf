@@ -1,1 +1,1 @@
-nvidia-docker build -t maddpg .
+nvidia-docker build -t naf-ikostrikov .
