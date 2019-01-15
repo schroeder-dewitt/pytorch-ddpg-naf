@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1716738-a0e6-4349-b261-5c5490659b6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exp_scripts_alt/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/exp_scripts_alt/run.sh" afterDir="false" />
-    </list>
+    <list default="true" id="a1716738-a0e6-4349-b261-5c5490659b6e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,12 +234,12 @@
       <updated>1547114330945</updated>
       <workItem from="1547114333181" duration="5998000" />
       <workItem from="1547339086688" duration="738000" />
-      <workItem from="1547544207097" duration="4509000" />
+      <workItem from="1547544207097" duration="5001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11245000" />
+    <option name="totallyTimeSpent" value="11737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
