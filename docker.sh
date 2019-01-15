@@ -29,7 +29,7 @@ ${cmd} run -d --rm \
     --security-opt="apparmor=unconfined" --cap-add=SYS_PTRACE \
     --net host \
     --user root \
-    -v $SCRIPT_PATH:/naf-ikostrikov \
+    -v $SCRIPT_PATH:/naf_ikostrikov \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v `pwd`/mongodb:/data/db \
     -e DISPLAY=unix$DISPLAY \

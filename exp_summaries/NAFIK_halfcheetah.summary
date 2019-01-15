@@ -1,0 +1,6 @@
+pymarl_path: /home/chrder/projects/pytorch-ddpg-naf
+python_path: :/naf_ikostrikov
+results_path: /home/chrder/projects/pytorch-ddpg-naf/results
+    name: NAFIK_halfcheetah__run__15_01_19-12_11_37__repeat1
+    gpu: 4
+    docker_hash: iaNU
