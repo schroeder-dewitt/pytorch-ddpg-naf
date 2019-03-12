@@ -251,7 +251,7 @@ def my_main(_run, _config, _log):
     logger = Logger(_log)
     # configure tensorboard logger
     unique_token = "{}__{}".format(arglist.exp_name, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
-    use_tensorboard = True # HARDCODE
+    use_tensorboard = False
     if use_tensorboard:
         tb_logs_direc = os.path.join(dirname(dirname(abspath(__file__))), "results", "tb_logs")
         tb_exp_direc = os.path.join(tb_logs_direc, "{}").format(unique_token)

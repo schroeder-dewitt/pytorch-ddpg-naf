@@ -1,0 +1,42 @@
+[INFO 12:02:06] pymarl Running command 'my_main'
+[INFO 12:02:06] pymarl Started run with ID "43346"
+[DEBUG 12:02:06] pymarl Starting Heartbeat
+[DEBUG 12:02:06] my_main Started
+[INFO 12:02:08] root Generating grammar tables from /usr/lib/python3.6/lib2to3/Grammar.txt
+[INFO 12:02:08] root Generating grammar tables from /usr/lib/python3.6/lib2to3/PatternGrammar.txt
+/home/cs/Documents/venvs/pymarl-cqmix/lib/python3.6/site-packages/torch/nn/functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.0.1 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.0.1
+
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+[GCC 8.2.0] on linux
+[33mWARN: <class 'normalized_actions.NormalizedActions'> doesn't implement 'action' method. Maybe it implements deprecated '_action' method.[0m
+next state: 1
+/home/cs/Documents/venvs/pymarl-cqmix/lib/python3.6/site-packages/torch/nn/functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+next state: 2
+next state: 3
+next state: 4
+next state: 5
+next state: 6
+next state: 7
+next state: 8
+next state: 9
+next state: 10
+next state: 11
+next state: 12
+next state: 13
+next state: 14
+next state: 15
+next state: 16
+next state: 17
+next state: 18
+next state: 19
+next state: 20
+next state: 21
+next state: 22
+next state: 23
+next state: 24

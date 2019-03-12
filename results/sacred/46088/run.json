@@ -1,0 +1,121 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/cs/Documents/pytorch-ddpg-naf/src",
+    "dependencies": [
+      "gym==0.10.8",
+      "munch==2.3.2",
+      "numpy==1.15.4",
+      "pymongo==3.7.2",
+      "PyYAML==3.13",
+      "sacred==0.7.4",
+      "tensorboardX==1.6",
+      "torch-nightly==1.0.0.dev20181219",
+      "tqdm==4.28.1"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "ddpg.py",
+        "_sources/ddpg_f92b208f47da5123923acffb1195055e.py"
+      ],
+      [
+        "main.py",
+        "_sources/main_3e669de7c09c0e185fd01e21dd468c52.py"
+      ],
+      [
+        "naf.py",
+        "_sources/naf_5b4f9a072eb4615b78703aa6f5e2eb17.py"
+      ],
+      [
+        "normalized_actions.py",
+        "_sources/normalized_actions_66c34f3bdd062b4c4a73adbb6fed467d.py"
+      ],
+      [
+        "ounoise.py",
+        "_sources/ounoise_e98eb3950934bca88d9c35aba79a06fb.py"
+      ],
+      [
+        "param_noise.py",
+        "_sources/param_noise_eb27360ba4ef6667ec21640232e18634.py"
+      ],
+      [
+        "replay_memory.py",
+        "_sources/replay_memory_0a39d2f1243e9f04206242d41aa091b5.py"
+      ],
+      [
+        "utils/__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "utils/dict2namedtuple.py",
+        "_sources/dict2namedtuple_0afb1ea09dbaa5798eb9185aeaa09a13.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_35a5d480ff8d4889ba1e8320767e94ab.py"
+      ]
+    ]
+  },
+  "heartbeat": "2019-03-11T22:29:38.655551",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Core(TM) i7-5930K CPU @ 3.50GHz",
+    "gpus": {
+      "driver_version": "396.54",
+      "gpus": [
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12209
+        },
+        {
+          "model": "TITAN Xp",
+          "persistence_mode": false,
+          "total_memory": 12196
+        }
+      ]
+    },
+    "hostname": "octavia",
+    "os": [
+      "Linux",
+      "Linux-4.15.0-45-generic-x86_64-with-Ubuntu-18.04-bionic"
+    ],
+    "python_version": "3.6.7"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat_interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print_config": false,
+      "--priority": null,
+      "--queue": false,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2019-03-11T22:25:53.693523",
+  "status": "INTERRUPTED",
+  "stop_time": "2019-03-11T22:29:38.696527"
+}

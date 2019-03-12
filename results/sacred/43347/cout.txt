@@ -1,0 +1,8 @@
+[INFO 12:02:42] pymarl Running command 'my_main'
+[INFO 12:02:42] pymarl Started run with ID "43347"
+[DEBUG 12:02:42] pymarl Starting Heartbeat
+[DEBUG 12:02:42] my_main Started
+[INFO 12:02:44] root Generating grammar tables from /usr/lib/python3.6/lib2to3/Grammar.txt
+[INFO 12:02:44] root Generating grammar tables from /usr/lib/python3.6/lib2to3/PatternGrammar.txt
+/home/cs/Documents/venvs/pymarl-cqmix/lib/python3.6/site-packages/torch/nn/functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
